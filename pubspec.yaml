@@ -1,0 +1,5 @@
+name: map_alarm
+dependencies:
+  js: ^0.3.0
+  intl: ^0.12.4
+  rikulo_ui:
