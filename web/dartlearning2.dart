@@ -100,12 +100,12 @@ main(){
       print(request.response.toString());
       if(request.response.toString() == ""){
         print("VAZIO");
-        window.alert("Usuario nao encontrado.");
+        window.alert("Usuario não encontrado.");
       }else {
         var isCorrect = new DBCrypt().checkpw(
             aux2.value, request.response.toString());
         if (!isCorrect) {
-          window.alert("Usuario nao encontrado.");
+          window.alert("Usuario não encontrado.");
         }
         else if (isCorrect) {
           print("isCorrect");

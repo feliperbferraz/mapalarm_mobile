@@ -65,7 +65,7 @@ main(){
 
      }
      else{
-       window.alert("Senha e confirmacao de senha estao diferentes!");
+       window.alert("Senha e confirmação de senha estão diferentes!");
      }
 
 //      var request =  new HttpRequest();

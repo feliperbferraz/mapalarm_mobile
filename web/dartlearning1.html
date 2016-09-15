@@ -218,7 +218,7 @@
       var alarmRadius = parseInt(ddl.options[ddl.selectedIndex].value);
       outputBoolDiv.innerHTML = '<p id="insideAlarmArea"> Trigger alarme: ' + (alarmRadius>=dist) + '</p>';
       if(alarmRadius>=dist){
-        window.alert('Ding Dong! Voce ja esta na aonde queria estar!');
+        window.alert('Ding Dong! Voce ja esta onde queria estar!');
       }
 
     });
@@ -236,7 +236,7 @@
         lat: event.latLng.lat(), lng: event.latLng.lng()
       };
 
-      //Updating divs
+      //Updating divs MUDA C MAIS ALARMES
       var outputDiv = document.getElementById('output');
       var dist = getDistance(origin1, destinationA);
       outputDiv.innerHTML = '<p id="distance"> Distancia: ' + dist + '</p>';
